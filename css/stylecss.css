@@ -1,0 +1,156 @@
+body{
+    background:url("../img/fon_0007s.jpg");
+}
+.conteiner{
+    width: 1000px;
+    margin: 40px auto;
+    min-height: 100%;
+    background: #ffffff;
+    box-shadow: 0 5px 0 #b9b9b9
+}
+.wraper{
+    height: 990px;
+}
+.header{
+    height: 470px;
+}
+.logo{
+    width: 450px;
+    height: 175px;
+    padding: 0;
+    margin:0;
+    background: url("../img/logo.png");
+    background-repeat: no-repeat;
+    float: left;
+}
+.contacts{
+    float: right;
+    margin: 30px 20px 0;
+    font-family: Tahoma;
+    font-size: 12px;
+}
+.box{
+    width: 130px;
+    height: 85px;
+}
+.herb {
+    float: right;
+    margin: 0 10px;
+    font-size: 10px;
+}
+
+.counries {
+    display: inline-block;
+    width: 65px;
+}
+
+.counries img {
+    display: block;
+    margin: 0 auto;
+}
+.clear{
+    clear: both;
+}
+
+.content-wrapper{
+    border-top: 2px solid #128aa7;
+    height:240px;
+    border-bottom: 2px solid #128aa7;
+}
+#menu {
+    width: 1000px;
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    font-family: Tahoma;
+
+}
+#menu ul{
+    box-shadow: 0 10px 5px -5px #777;
+}
+#menu li {
+    list-style: none;
+    float: left;
+    height: 30px;
+    padding: 0;
+    margin: 0;
+    width: 142px;
+    text-align: center;
+    background: #303030;
+    position: relative;
+    padding-top: 12px;
+    border-bottom: 3px solid #000000;
+}
+#menu li ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 140px;
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 45px;
+}
+#menu li ul li {
+       float: none;
+    height: 30px;
+    margin: 0;
+    width: 140px;
+    text-align: center;
+    background: #292929;
+}
+#menu li a {
+
+    display: block;
+    width: 140px;
+    height: 30px;
+    color: #fff;
+    text-decoration: none;
+}
+#menu li:hover ul, #menu li ul .jshover {
+    display: block;
+
+}
+#menu li:hover, #menu li .jshover {
+    background: #424242;
+
+}
+.clear{
+    clear: both;
+}
+.content{
+    width: 1000px;
+    height: 540px;
+    overflow: hidden;
+    color: #424c43;
+    border-bottom: 3px solid #031d28;
+}
+.leftColumn {
+    width: 210px;
+    float: left;
+    background: #edeef0;
+    padding-bottom: 20000px;
+    margin-bottom: -20000px;
+}
+
+.centerColumn {
+    width: 580px;
+    float: left;
+    padding-bottom: 20000px;
+    margin-bottom: -20000px;
+    background: #ffffff;
+}
+
+.rightColumn {
+    width: 210px;
+    float: right;
+    background: #edeef0;
+    padding-bottom: 20000px;
+    margin-bottom: -20000px;
+}
+.footer{
+    text-align: center;
+    background: #0c739f;
+}
+
+
